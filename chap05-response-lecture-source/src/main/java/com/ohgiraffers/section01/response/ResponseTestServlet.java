@@ -39,8 +39,8 @@ public class ResponseTestServlet extends HttpServlet {
         // default type 이 null 이기 때문에 수정 필요
         System.out.println("default response type : " + response.getContentType());
 
-//        response.setContentType("text/html");
-        response.setContentType("text/plain");
+        response.setContentType("text/html");
+//        response.setContentType("text/plain");
 
         // 추가사항 : 인코딩 방식변경
         response.setCharacterEncoding("UTF-8");
