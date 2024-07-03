@@ -33,7 +33,7 @@ public class FirstFilter implements Filter {
 
     @Override
     public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain) throws IOException, ServletException {
-        // Servlet \으로 request가 전달되기 전에 요청을 가로채는 역할을 하는 메소드
+        // Servlet으로 request가 전달되기 전에 요청을 가로채는 역할을 하는 메소드
         System.out.println("Filter doFilter 호출"); // 갈때
 
         // 필터에서 처리할 코드가 작성되는 공간
